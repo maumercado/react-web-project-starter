@@ -8,7 +8,8 @@ import rootReducer from "./reducers";
 
 export const history = createHistory();
 const logger = createLogger({
-    duration: true
+    duration: true,
+    diff: true
 });
 
 const enhancers = [];
